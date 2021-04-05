@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  height: 100vh;
+}
+.humanGif{
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.weatherNav{
+  height: calc(100% - 20px);
+  margin: 10px 10px 0;
+  border-radius: 3px;
+  background-color: #ffffffe7;
+  color: #146E9D;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 25px;
+}
+.inputTxt{
+  width: 100%; /*親要素いっぱい広げる*/
+  padding: 10px 15px; /*ボックスを大きくする*/
+  font-size: 16px;
+  border-radius: 3px; /*ボックス角の丸み*/
+  border: 2px solid #ddd; /*枠線*/
+  box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+  background: rgba(255, 255, 255, 0.800);
+}
+input.btn-radius-solid {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#146E9D), to(#40eefe));
+  background-image: -webkit-linear-gradient(left, #146E9D 0%, #40eefe 100%);
+  background-image: linear-gradient(to right, #146E9D 0%, #40eefe 100%);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  transition: 0.6s;
+  width: 100%;
+  margin-top: 5px;
+}
+input.btn-radius-solid:hover {
+  -webkit-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+  color: #fff;
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+.effectAnim{
+  height: 100%!important;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.effectAnim video{
+  width: auto!important;
+  height: 100%;
+  mix-blend-mode: screen;
+}
+
+.App {
+  height: 100vh;
+}
