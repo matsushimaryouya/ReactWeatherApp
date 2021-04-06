@@ -2,9 +2,15 @@ body{
   margin: 0;
   height: 100vh;
 }
-.humanGif{
-  height: 100vh;
-  width: 100%;
+.womanAnim{
+  height: 100vh!important;
+  width: 100%!important;
+  object-fit: cover;
+  position: relative;
+}
+.womanAnim video{
+  width: 100%!important;
+  height: 100%!important;
   object-fit: cover;
   position: relative;
 }
@@ -48,19 +54,81 @@ input.btn-radius-solid:hover {
   -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
   box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
 }
-.effectAnim{
-  height: 100%!important;
+.EffectAnim{
+  width: 100%!important;
+  height: auto!important;
   object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
+  display: none;
 }
-.effectAnim video{
+.EffectAnim video{
   width: auto!important;
-  height: 100%;
+  height: 100%!important;
   mix-blend-mode: screen;
 }
-
+.Clear.EffectAnim{
+  top: -250px;
+  left: -500px;
+  height: 110vh!important;
+  object-fit: cover;
+}
+.Clouds{
+  top: -520px;
+}
+.Rain.EffectAnim{
+  height: 100vh!important;
+}
+.fadeInEffect .EffectAnim{
+  display: block;
+}
+.weatherTopNav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.weatherNav button{
+  background: white;
+  position: absolute;
+  top: 0;
+  left : -70px;
+  padding: 5px 0;
+  font-size: 2rem;
+}
+.MuiSvgIcon-root{
+  font-size: 2rem!important;
+}
+.closeBtn{
+  position: absolute;
+  top: 0;
+  left: -34px;
+  width: auto!important;
+  color: white;
+  cursor: pointer;
+}
+.closeBtn span{
+  width: auto!important;
+}
+.closeNav{
+  margin-right: -323px;
+  transition: 1s;
+}
+.openNav{
+  margin-right: 10px;
+  transition: 1s;
+}
+.toggleDrawer{
+  position: relative;
+}
+.MuiDrawer-paper{
+  overflow-y: initial!important;
+}
+.MuiBackdrop-root{
+  background: rgba(0, 0, 0, 0)!important;
+}
 .App {
   height: 100vh;
 }
