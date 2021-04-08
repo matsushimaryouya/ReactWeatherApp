@@ -75,9 +75,10 @@ function App() {
         url={(maxTemperature >= 25)?WomanHalfAnim:WomanLongAnim}
         controls={false}
         loop
+        muted
+        playsinline
         config={{ file: { attributes: {
           autoPlay: true,
-          muted: true
         }}}}
       />
 
@@ -88,6 +89,8 @@ function App() {
           url={SunAnim}
           controls={false}
           loop
+          muted
+          playsinline
           config={{ file: { attributes: {
             autoPlay: true,
             muted: true
@@ -102,6 +105,8 @@ function App() {
           url={CloudsAnim}
           controls={false}
           loop
+          muted
+          playsinline
           config={{ file: { attributes: {
             autoPlay: true,
             muted: true
@@ -116,6 +121,8 @@ function App() {
           url={RainAnim}
           controls={false}
           loop
+          muted
+          playsinline
           config={{ file: { attributes: {
             autoPlay: true,
             muted: true
