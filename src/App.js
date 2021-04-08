@@ -44,7 +44,6 @@ function App() {
       setTemp(temp);
       setMaxTemp(maxTemp);
       setMinTemp(minTemp);
-      // catchでエラー時の挙動を定義する
     }).catch(err => {
       console.log('err:', err);
     });
