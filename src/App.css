@@ -24,6 +24,7 @@ body{
   top: 0;
   right: 0;
   padding: 0 25px;
+  z-index: 2;
 }
 .inputTxt{
   width: 100%; /*親要素いっぱい広げる*/
@@ -101,6 +102,9 @@ input.btn-radius-solid:hover {
 .MuiSvgIcon-root{
   font-size: 2rem!important;
 }
+.btnStyle{
+  background: #ffffffa3!important;
+}
 .closeBtn{
   position: absolute;
   top: 0;
@@ -113,12 +117,23 @@ input.btn-radius-solid:hover {
   width: auto!important;
 }
 .closeNav{
-  margin-right: -323px;
+  margin-right: -325px;
   transition: 1s;
 }
 .openNav{
   margin-right: 10px;
   transition: 1s;
+}
+.openNav button{
+  left: 0;
+  transition: 0.5s;
+}
+.closeNav button{
+  left: -70px;
+  transition: 0.5s;
+}
+.noneBtn{
+  display: none!important;
 }
 .toggleDrawer{
   position: relative;
@@ -129,6 +144,16 @@ input.btn-radius-solid:hover {
 .MuiBackdrop-root{
   background: rgba(0, 0, 0, 0)!important;
 }
+.cityName{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  z-index: 1;
+  font-size: 5rem;
+}
 .App {
   height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
