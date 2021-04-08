@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-demo-app/static/css/main.98ba00eb.chunk.css",
-    "main.js": "/react-demo-app/static/js/main.94d8baf9.chunk.js",
-    "main.js.map": "/react-demo-app/static/js/main.94d8baf9.chunk.js.map",
-    "runtime-main.js": "/react-demo-app/static/js/runtime-main.ef3db6dc.js",
-    "runtime-main.js.map": "/react-demo-app/static/js/runtime-main.ef3db6dc.js.map",
-    "static/js/2.4bf88a87.chunk.js": "/react-demo-app/static/js/2.4bf88a87.chunk.js",
-    "static/js/2.4bf88a87.chunk.js.map": "/react-demo-app/static/js/2.4bf88a87.chunk.js.map",
-    "static/js/3.e02b5d7a.chunk.js": "/react-demo-app/static/js/3.e02b5d7a.chunk.js",
-    "static/js/3.e02b5d7a.chunk.js.map": "/react-demo-app/static/js/3.e02b5d7a.chunk.js.map",
-    "index.html": "/react-demo-app/index.html",
-    "static/css/main.98ba00eb.chunk.css.map": "/react-demo-app/static/css/main.98ba00eb.chunk.css.map",
-    "static/js/2.4bf88a87.chunk.js.LICENSE.txt": "/react-demo-app/static/js/2.4bf88a87.chunk.js.LICENSE.txt",
-    "static/media/clouds.46855c8c.mp4": "/react-demo-app/static/media/clouds.46855c8c.mp4",
-    "static/media/half.c5260164.mp4": "/react-demo-app/static/media/half.c5260164.mp4",
-    "static/media/long.1de7a703.mp4": "/react-demo-app/static/media/long.1de7a703.mp4",
-    "static/media/rain.3311e471.mp4": "/react-demo-app/static/media/rain.3311e471.mp4",
-    "static/media/sun.d6161ad7.mp4": "/react-demo-app/static/media/sun.d6161ad7.mp4"
+    "main.css": "/webAnimationTest/static/css/main.98ba00eb.chunk.css",
+    "main.js": "/webAnimationTest/static/js/main.8e32885e.chunk.js",
+    "main.js.map": "/webAnimationTest/static/js/main.8e32885e.chunk.js.map",
+    "runtime-main.js": "/webAnimationTest/static/js/runtime-main.54cb5ac7.js",
+    "runtime-main.js.map": "/webAnimationTest/static/js/runtime-main.54cb5ac7.js.map",
+    "static/js/2.4bf88a87.chunk.js": "/webAnimationTest/static/js/2.4bf88a87.chunk.js",
+    "static/js/2.4bf88a87.chunk.js.map": "/webAnimationTest/static/js/2.4bf88a87.chunk.js.map",
+    "static/js/3.e02b5d7a.chunk.js": "/webAnimationTest/static/js/3.e02b5d7a.chunk.js",
+    "static/js/3.e02b5d7a.chunk.js.map": "/webAnimationTest/static/js/3.e02b5d7a.chunk.js.map",
+    "index.html": "/webAnimationTest/index.html",
+    "static/css/main.98ba00eb.chunk.css.map": "/webAnimationTest/static/css/main.98ba00eb.chunk.css.map",
+    "static/js/2.4bf88a87.chunk.js.LICENSE.txt": "/webAnimationTest/static/js/2.4bf88a87.chunk.js.LICENSE.txt",
+    "static/media/clouds.46855c8c.mp4": "/webAnimationTest/static/media/clouds.46855c8c.mp4",
+    "static/media/half.c5260164.mp4": "/webAnimationTest/static/media/half.c5260164.mp4",
+    "static/media/long.1de7a703.mp4": "/webAnimationTest/static/media/long.1de7a703.mp4",
+    "static/media/rain.3311e471.mp4": "/webAnimationTest/static/media/rain.3311e471.mp4",
+    "static/media/sun.d6161ad7.mp4": "/webAnimationTest/static/media/sun.d6161ad7.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef3db6dc.js",
+    "static/js/runtime-main.54cb5ac7.js",
     "static/js/2.4bf88a87.chunk.js",
     "static/css/main.98ba00eb.chunk.css",
-    "static/js/main.94d8baf9.chunk.js"
+    "static/js/main.8e32885e.chunk.js"
   ]
 }
